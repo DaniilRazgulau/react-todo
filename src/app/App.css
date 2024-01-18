@@ -1,0 +1,27 @@
+h1 {
+    color: #ededed;
+}
+
+.header{
+    background: #3e4444;
+}
+
+.nav__items{
+    display: flex;
+    list-style: none;
+}
+
+.nav__item a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    font: 18px;
+}
+
+.nav__item a.active{
+    border-bottom: 3px solid yellow;
+}
+
+.nav__items a:hover{
+    background: #82b74b;
+}
